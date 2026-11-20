@@ -1,0 +1,15 @@
+[DOCUMENT]
+TITLE: Fault reporting
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: LLR-4
+STATUS: Draft
+TITLE: Fault reporting
+STATEMENT: >>>
+The controller shall report a Fault to the diagnostics bus within 10 ms.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: HLR-2
