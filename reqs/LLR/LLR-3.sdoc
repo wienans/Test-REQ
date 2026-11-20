@@ -9,6 +9,8 @@ STATUS: Draft
 TITLE: Pressure sensor plausibility
 STATEMENT: >>>
 The controller shall reject pressure readings that differ from the model by more than **12 bar**.
+
+![Window](_assets/new-20261120-1700.png)
 <<<
 RELATIONS:
 - TYPE: Parent
