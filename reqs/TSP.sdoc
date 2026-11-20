@@ -1,0 +1,8 @@
+[DOCUMENT]
+TITLE: Test specifications
+
+[DOCUMENT_FROM_FILE]
+FILE: TSP/TSP-1.sdoc
+
+[DOCUMENT_FROM_FILE]
+FILE: TSP/TSP-2.sdoc

@@ -1,0 +1,15 @@
+[DOCUMENT]
+TITLE: Ramp test spec
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: TSP-2
+STATUS: Approved
+TITLE: Ramp test spec
+STATEMENT: >>>
+Enter ABS mode on the test bench and verify the pressure ramp never exceeds the specified rate.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: LLR-2

@@ -1,0 +1,15 @@
+[DOCUMENT]
+TITLE: ABS limit test spec
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: TSP-1
+STATUS: Approved
+TITLE: ABS limit test spec
+STATEMENT: >>>
+Drive brake pressure above the ABS limit on the test bench and verify the controller holds it at the limit.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: LLR-1

@@ -1,0 +1,12 @@
+[DOCUMENT]
+TITLE: Safe braking
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: HLR-1
+STATUS: Approved
+TITLE: Safe braking
+STATEMENT: >>>
+The vehicle shall decelerate safely on every road surface without locking the wheels.
+<<<

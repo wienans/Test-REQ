@@ -1,0 +1,15 @@
+[DOCUMENT]
+TITLE: Pressure sensor plausibility
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: LLR-3
+STATUS: Approved
+TITLE: Pressure sensor plausibility
+STATEMENT: >>>
+The controller shall reject pressure sensor readings that differ from the model estimate by more than 15 bar.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: HLR-1

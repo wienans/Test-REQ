@@ -1,0 +1,12 @@
+[DOCUMENT]
+TITLE: Diagnostics
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: HLR-2
+STATUS: Approved
+TITLE: Diagnostics
+STATEMENT: >>>
+The vehicle shall detect brake system faults and report them to the driver and the service tools.
+<<<

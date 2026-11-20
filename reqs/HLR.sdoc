@@ -1,0 +1,8 @@
+[DOCUMENT]
+TITLE: High-level requirements
+
+[DOCUMENT_FROM_FILE]
+FILE: HLR/HLR-1.sdoc
+
+[DOCUMENT_FROM_FILE]
+FILE: HLR/HLR-2.sdoc

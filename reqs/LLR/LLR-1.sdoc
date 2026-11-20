@@ -1,0 +1,30 @@
+[DOCUMENT]
+TITLE: Brake pressure limit
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: LLR-1
+STATUS: Approved
+TITLE: Brake pressure limit
+STATEMENT: >>>
+The controller shall limit brake pressure to the limit of the active mode.
+
+| Mode | Limit (bar) |
+|------|-------------|
+| ABS  | 180         |
+| Park | 60          |
+
+![Pressure over time in ABS mode](_assets/pressure-curve.png)
+
+```mermaid
+stateDiagram-v2
+    Idle --> Braking
+```
+<<<
+RATIONALE: >>>
+Higher pressure locks the wheels on low-friction surfaces.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: HLR-1
