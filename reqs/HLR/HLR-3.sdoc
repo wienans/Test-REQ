@@ -1,0 +1,18 @@
+[DOCUMENT]
+TITLE: Test
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: HLR-3
+STATUS: Draft
+TITLE: Test
+STATEMENT: >>>
+Test*test*
+<<<
+RATIONALE: >>>
+Tester
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: HLR-1
