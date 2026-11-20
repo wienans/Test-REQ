@@ -1,0 +1,15 @@
+[DOCUMENT]
+TITLE: Plausibility window test spec
+OPTIONS:
+  MARKUP: Markdown
+
+[REQUIREMENT]
+UID: TSP-3
+STATUS: Draft
+TITLE: Plausibility window test spec
+STATEMENT: >>>
+Inject a reading 13 bar off and expect a rejection.
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: LLR-3

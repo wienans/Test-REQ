@@ -5,10 +5,12 @@ OPTIONS:
 
 [REQUIREMENT]
 UID: LLR-3
-STATUS: Approved
+STATUS: Draft
 TITLE: Pressure sensor plausibility
 STATEMENT: >>>
-The controller shall reject pressure sensor readings that differ from the model estimate by more than 15 bar.
+The controller shall reject pressure readings that differ from the model by more than **12 bar**.
+
+![Window](_assets/new-20261120-1700.png)
 <<<
 RELATIONS:
 - TYPE: Parent
