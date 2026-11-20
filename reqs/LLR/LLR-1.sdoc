@@ -8,11 +8,11 @@ UID: LLR-1
 STATUS: Approved
 TITLE: Brake pressure limit
 STATEMENT: >>>
-The controller shall limit brake pressure to the limit of the active mode.
+The controller shall limit brake pressure to the limit of the active mode and enter Fault when the limit is exceeded for 50 ms.
 
 | Mode | Limit (bar) |
 |------|-------------|
-| ABS  | 180         |
+| ABS  | 170         |
 | Park | 60          |
 
 ![Pressure over time in ABS mode](_assets/pressure-curve.png)
@@ -20,6 +20,7 @@ The controller shall limit brake pressure to the limit of the active mode.
 ```mermaid
 stateDiagram-v2
     Idle --> Braking
+    Braking --> Fault
 ```
 <<<
 RATIONALE: >>>
