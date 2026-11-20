@@ -8,5 +8,16 @@ UID: HLR-1
 STATUS: Approved
 TITLE: Safe braking
 STATEMENT: >>>
-The vehicle shall decelerate safely on every road surface without locking the wheels.
+The shall decelerate safely on every road surface without locking the wheels. Test
+
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Active
+    Active --> Idle
+```
+<<<
+RATIONALE: >>>
+Test
 <<<
